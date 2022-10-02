@@ -9,7 +9,7 @@ void enqueue()
     printf("\nEnter Data\n");
     scanf("%d",&x);
     if(rear == (N-1))
-        printf("Overflow");
+        printf("Overflow.!!");
     else if(front== -1 && rear== -1)
     {
         front=rear=0;
@@ -26,7 +26,7 @@ void enqueue()
 void dequeue()
 {
     if(front==-1 && rear==-1)
-        printf("\nQueue is empty\n");
+        printf("\nQueue is empty.!!\n");
     else if(front==rear)
     {
         front=rear=-1;   
