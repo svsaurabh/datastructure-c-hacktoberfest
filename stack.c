@@ -10,9 +10,9 @@
         scanf("%d",&n);     
         while(choice != 4)  
         {  
-            printf("\nChose one from the below options...\n");  
+            printf("\nChoose one from the below options...\n");  
             printf("\n1.Push\n2.Pop\n3.Show\n4.Exit");  
-            printf("\n Enter your choice: ");        
+            printf("\n Enter your choice : ");        
             scanf("%d",&choice);  
             switch(choice)  
             {  
@@ -33,12 +33,12 @@
                 }  
                 case 4:   
                 {  
-                    printf("Exiting.... Thank You");  
+                    printf("Exiting.... Thank You :)");  
                     break;   
                 }  
                 default:  
                 {  
-                    printf("Please Enter valid choice ");  
+                    printf("Please Enter valid choice .!!");  
                 }   
             };  
         }  
